@@ -1,0 +1,324 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*CABECALHO*/
+
+header {
+    width: 100vw;
+    height: 15vh;
+    background-color: #171E2C;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+ol {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+ol > li {
+    padding: 15px;
+}
+
+ol > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+#logo_NASA {
+    display: inline-block;
+    width: 85px;
+    height: 70px;
+}
+
+/*+----------------------------+*/
+
+/*BANNER*/
+
+#section_banner_de_recepcao {
+    background-image: url(imagens/javier-miranda-AlJ9TQqeCV0-unsplash.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 85vh;
+}
+
+#section_banner_de_recepcao > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#section_banner_de_recepcao > div > h1 {
+    color: red;
+    font-size: 150px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#section_banner_de_recepcao > div > p {
+    font-size: 40px;
+}
+
+.sigla_vermelha {
+    color: red;
+}
+
+#card_maisInfo {
+    background-color: rgba(255, 255, 255, 0.434);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    border: solid 2px white;
+    border-radius: 10px;
+    width: 50%;
+    height: 50px;
+}
+
+#card_maisInfo > p {
+    margin: 10px;
+}
+
+#card_maisInfo > img {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+/*+---------------------------+*/
+
+/*NOVIDADES*/
+
+#section_novidades {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 100vw;
+    height: 100vh;
+}
+
+#section_novidades > h2 {
+    margin: 10px 45px 10px 45px;
+}
+
+#banner_novidades {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(imagens/niac.webp);
+    background-size: cover;
+    width: 100%;
+    height: 30%;
+}
+
+#banner_novidades > h1 {
+    color: #b44a0c;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100px;
+    letter-spacing: 20px;
+    text-shadow: #5e240a 0px 0px 10px;
+}
+
+#section_novidades > article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+    margin: 10px;
+}
+
+#container_materia_principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+#card_materia_principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#container_materia_principal_imagem {
+    background-image: url(imagens/imagem_materia_principal.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70%;
+}
+
+#container_materia_principal_imagem > img {
+    width: 100%;
+    height: 100%;
+}
+
+#container_materia_principal_contexto {
+    border: solid 2px #bbbbbb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+}
+
+#container_materia_principal_contexto > h3 {
+    width: 85%;
+}
+
+#container_materia_principal_contexto > p {
+    width: 85%;
+}
+
+#container_materia_segundaria {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 100%;
+}
+
+.card_materia-segundaria {      
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 50%;
+}
+
+.container_materia_segundaria_imagem {
+    width: 50%;
+    height: 100%;
+}
+
+.container_materia_segundaria_imagem > img {
+    width: 100%;
+    height: 100%;
+}
+
+.container_materia_segundaria_contexto {
+    border: solid 2px #bbbbbb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.container_materia_segundaria_contexto > h3 {
+    width: 85%;
+    margin: 10px;
+}
+
+.container_materia_segundaria_contexto > p {
+    width: 85%;
+    margin: 10px;
+}
+
+/*+---------------------------+*/
+
+/*SOBRE A NASA*/
+    
+#section_sobre_a_NASA {
+    background-color: #536487;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 100vw;
+    height: auto;
+}
+
+#section_sobre_a_NASA > h1 {
+    margin: 10px 10px 0px 160px;
+    color: white;
+}
+
+#section_sobre_a_NASA > article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 85%;
+    margin: 10px;
+}
+
+.icone_carimbo_da_NASA {
+    width: 150px;
+    height: 150px;
+}
+
+.card_diretor_da_nasa {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px gray;
+    width: 80%;
+    height: 10%;
+    margin: 10px 0px 10px 0px;
+}
+
+.container_imagem_diretor {
+    width: 50%;
+    height: 95%;
+    margin: 5px 10px 5px 10px;
+}
+
+.container_imagem_diretor > img {
+    width: 100%;
+    height: 100%;
+}
+
+.container_dados_diretor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.container_dados_diretor > h3 {
+    width: 85%;
+    height: 40%;
+    font-size: 40px;
+    margin: 5px;
+}
+
+.container_dados_diretor > p {
+    width: 85%;
+    height: 40%;
+    font-size: 20px;
+    margin: 5px;
+}
+/*+---------------------------+*/
