@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 /*CABECALHO*/
 
 header {
@@ -92,7 +96,7 @@ ol > li > a {
 }
 
 #card_maisInfo > p {
-    margin: 10px;
+    text-align: center;
 }
 
 #card_maisInfo > img {
@@ -118,21 +122,23 @@ ol > li > a {
 }
 
 #banner_novidades {
+    background-color: #171E2C;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
-    background-image: url(imagens/niac.webp);
-    background-size: cover;
+    /* background-image: url(imagens/niac.webp);
+    background-size: cover; */
     width: 100%;
-    height: 30%;
+    height: 20%;
 }
 
 #banner_novidades > h1 {
-    color: #b44a0c;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 100px;
-    letter-spacing: 20px;
-    text-shadow: #5e240a 0px 0px 10px;
+    /* color: #b44a0c; */
+    color: white;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-size: 24px;
+    /* letter-spacing: 20px; */
+    /* text-shadow: #5e240a 0px 0px 10px; */
 }
 
 #section_novidades > article {
@@ -140,7 +146,7 @@ ol > li > a {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 70%;
+    height: 80%;
     margin: 10px;
 }
 
