@@ -328,3 +328,602 @@ ol > li > a {
     margin: 5px;
 }
 /*+---------------------------+*/
+
+
+.clima-banner{
+
+    height:340px;
+
+    background-image:url("imagens/terra.webp");
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.clima-banner::before{
+
+    content:"";
+    position:absolute;
+    width:100%;
+    height:340px;
+    background:rgba(0,0,0,.45);
+
+}
+
+.clima-bannerTexto{
+
+    position:relative;
+    text-align:center;
+    color:white;
+
+}
+
+.clima-bannerTexto h1{
+
+    color:#ff1c1c;
+    font-size:65px;
+    margin-bottom:15px;
+
+}
+
+.clima-bannerTexto p{
+
+    font-size:26px;
+
+}
+
+
+.clima-container{
+
+    width:92%;
+    margin:35px auto;
+
+}
+
+.clima-container h2{
+
+    margin-bottom:20px;
+
+}
+
+
+.clima-cards{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:20px;
+
+}
+
+.clima-card{
+
+    background:#071d3c;
+
+    color:white;
+
+    border-radius:8px;
+
+    padding:25px;
+
+    text-align:center;
+
+    box-shadow:0 5px 10px rgba(0,0,0,.15);
+
+}
+
+.clima-card img{
+
+    width:45px;
+    margin-bottom:15px;
+
+}
+
+.clima-card h3{
+
+    font-size:18px;
+    margin-bottom:10px;
+
+}
+
+.clima-card h1{
+
+    color:#39a8ff;
+    margin-bottom:8px;
+
+}
+
+.clima-card p{
+
+    color:#d7d7d7;
+
+}
+
+
+.clima-planeta{
+
+    display:flex;
+    gap:25px;
+    margin-top:20px;
+
+}
+
+.clima-mapa{
+    background-image: url(imagens/terra.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:65%;
+
+}
+
+.clima-mapa img{
+
+    width:100%;
+    border-radius:8px;
+    border:1px solid #d9d9d9;
+
+}
+
+.clima-painel{
+
+    width:35%;
+
+}
+
+.clima-item{
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+    background:white;
+
+    border:1px solid #d7d7d7;
+
+    border-radius:8px;
+
+    padding:15px;
+
+    margin-bottom:15px;
+
+}
+
+.clima-item img{
+
+    width:35px;
+    margin-right:15px;
+
+}
+
+.clima-item div{
+
+    flex:1;
+
+}
+
+.clima-item h4{
+
+    margin-bottom:5px;
+
+}
+
+.clima-item p{
+
+    color:#777;
+    font-size:14px;
+
+}
+
+.clima-item span{
+
+    color:#0b75ff;
+    font-size:28px;
+
+}
+
+/* ===== ESPAÇO ===== */
+.espaco-banner{
+    margin: top 0;
+    min-height:520px;
+    background:url("imagens/espaco.webp") center/cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:70px;
+    padding:60px;
+}
+
+.espaco-texto-banner{
+    width:350px;
+    color:white;
+}
+
+.espaco-texto-banner h3{
+    font-size:22px;
+    margin-bottom:25px;
+    font-weight:400;
+}
+
+.espaco-texto-banner h2{
+    font-size:32px;
+    margin-bottom:30px;
+    line-height:42px;
+}
+
+.espaco-texto-banner p{
+    line-height:30px;
+    font-size:17px;
+}
+
+.espaco-imagem-banner img{
+    width:620px;
+    border-radius:8px;
+    box-shadow:0 0 20px rgba(0,0,0,.5);
+}
+
+
+.espaco-main{
+    width:92%;
+    margin:60px auto;
+}
+
+.espaco-main h1{
+    font-size:46px;
+    margin-bottom:35px;
+}
+
+
+.espaco-conteudo{
+    display:flex;
+    gap:25px;
+}
+
+.espaco-card-grande{
+    width:66%;
+    background:white;
+    border:2px solid #9fd7ff;
+    border-radius:8px;
+    overflow:hidden;
+}
+
+.espaco-card-grande img{
+    width:100%;
+    display:block;
+}
+
+.espaco-texto-card{
+    padding:25px;
+}
+
+.espaco-texto-card h2{
+    font-size:35px;
+    margin-bottom:20px;
+    line-height:48px;
+}
+
+.espaco-texto-card p{
+    font-size:17px;
+    color:#555;
+    line-height:30px;
+    margin-bottom:20px;
+}
+
+.espaco-cards-laterais{
+    width:34%;
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+}
+
+.espaco-card-pequeno{
+    background:white;
+    border:2px solid #9fd7ff;
+    border-radius:8px;
+    overflow:hidden;
+}
+
+.espaco-card-pequeno img{
+    width:100%;
+    display:block;
+}
+
+.espaco-texto-card-pequeno{
+    padding:20px;
+}
+
+.espaco-texto-card-pequeno h3{
+    font-size:20px;
+    margin-bottom:15px;
+}
+
+.espaco-texto-card-pequeno p{
+    font-size:15px;
+    color:#555;
+    line-height:26px;
+}
+
+.espaco-card-de-ocupacao{
+    background:white;
+    border:2px solid #9fd7ff;
+    border-radius:8px;
+    overflow:hidden;
+}
+
+.espaco-card-de-ocupacao img{
+    width:100%;
+    display:block;
+}
+
+.espaco-texto-card-de-ocupacao{
+    padding:100px;
+}
+
+.espaco-texto-card-de-ocupacao h3{
+    font-size:20px;
+    margin-bottom:15px;
+}
+
+.espaco-texto-card-de-ocupacao p{
+    font-size:15px;
+    color:#555;
+    line-height:26px;
+}
+
+@media(max-width:1100px){
+
+    .espaco-banner{
+        margin-top:0;
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .espaco-imagem-banner img{
+        width:100%;
+    }
+
+    .espaco-conteudo{
+        flex-direction:column;
+    }
+
+    .espaco-card-grande,
+    .espaco-cards-laterais{
+        width:100%;
+    }
+
+}
+
+
+.contato-banner{
+
+    height:360px;
+
+    background-image:url("imagens/localnasa.jpg");
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    align-items:center;
+
+    position:relative;
+
+}
+
+.contato-banner::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:100%;
+    height:100%;
+
+    background:rgba(0,0,0,.45);
+
+}
+
+.contato-bannerTexto{
+
+    position:relative;
+
+    width:90%;
+
+    margin:auto;
+
+    color:white;
+
+}
+
+.contato-bannerTexto h1{
+
+    color:#FF2020;
+
+    font-size:64px;
+
+    margin-bottom:15px;
+
+}
+
+.contato-bannerTexto p{
+
+    font-size:28px;
+
+    line-height:40px;
+
+}
+
+/*=========================
+        CONTEÚDO
+=========================*/
+
+.contato-container{
+
+    width:90%;
+
+    margin:40px auto;
+
+}
+
+.contato-containerPrincipal{
+
+    display:flex;
+
+    gap:35px;
+
+}
+
+.contato-formulario{
+
+    width:50%;
+
+}
+
+.contato-informacoes{
+
+    width:50%;
+
+}
+
+.contato-titulo{
+
+    margin-bottom:25px;
+
+    color:#222;
+
+}
+
+.contato-card{
+
+    background:white;
+
+    border-radius:10px;
+
+    border:1px solid #D8E4F2;
+
+    padding:25px;
+
+}
+
+.contato-label{
+
+    display:block;
+
+    margin-top:18px;
+    margin-bottom:8px;
+
+    font-weight:bold;
+
+}
+
+.contato-input{
+
+    width:100%;
+    height:45px;
+
+    border:1px solid #D5D5D5;
+
+    border-radius:6px;
+
+    padding-left:15px;
+
+    outline:none;
+
+}
+
+.contato-textarea{
+
+    width:100%;
+    height:180px;
+
+    border:1px solid #D5D5D5;
+
+    border-radius:6px;
+
+    padding:15px;
+
+    resize:none;
+
+    outline:none;
+
+}
+
+.contato-botao{
+
+    margin-top:25px;
+
+    width:180px;
+    height:45px;
+
+    border:none;
+
+    border-radius:6px;
+
+    background:#E31B23;
+
+    color:white;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.contato-botao:hover{
+
+    background:#C91319;
+
+}
+
+.contato-info{
+
+    display:flex;
+
+    align-items:flex-start;
+
+    margin-bottom:30px;
+
+}
+
+.contato-info img{
+
+    width:38px;
+
+    margin-right:20px;
+
+}
+
+.contato-info h3{
+
+    margin-bottom:5px;
+
+    color:#0A1F44;
+
+}
+
+.contato-info p{
+
+    color:#555;
+
+    line-height:24px;
+
+}
+
+.contato-mapa{
+
+    width:100%;
+
+    margin-top:20px;
+
+}
+
+.contato-mapa img{
+
+    width:100%;
+
+    border-radius:10px;
+
+}
