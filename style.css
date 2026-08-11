@@ -8,7 +8,6 @@ body {
     overflow-x: hidden;
 }
 
-/*CABECALHO*/
 
 header {
     width: 100vw;
@@ -45,10 +44,6 @@ ol > li > a {
     width: 85px;
     height: 70px;
 }
-
-/*+----------------------------+*/
-
-/*BANNER*/
 
 #section_banner_de_recepcao {
     background-image: url(imagens/javier-miranda-AlJ9TQqeCV0-unsplash.jpg);
@@ -104,9 +99,6 @@ ol > li > a {
     height: 20px;
     margin: 10px;
 }
-/*+---------------------------+*/
-
-/*NOVIDADES*/
 
 #section_novidades {
     display: flex;
@@ -245,10 +237,6 @@ ol > li > a {
     width: 85%;
     margin: 10px;
 }
-
-/*+---------------------------+*/
-
-/*SOBRE A NASA*/
     
 #section_sobre_a_NASA {
     background-color: #536487;
@@ -325,8 +313,6 @@ ol > li > a {
     font-size: 20px;
     margin: 5px;
 }
-/*+---------------------------+*/
-
 
 .clima-banner{
 
@@ -524,7 +510,6 @@ ol > li > a {
 
 }
 
-/* ===== ESPAÇO ===== */
 .espaco-banner{
     margin: top 0;
     min-height:520px;
@@ -672,30 +657,6 @@ ol > li > a {
     line-height:26px;
 }
 
-@media(max-width:1100px){
-
-    .espaco-banner{
-        margin-top:0;
-        flex-direction:column;
-        text-align:center;
-    }
-
-    .espaco-imagem-banner img{
-        width:100%;
-    }
-
-    .espaco-conteudo{
-        flex-direction:column;
-    }
-
-    .espaco-card-grande,
-    .espaco-cards-laterais{
-        width:100%;
-    }
-
-}
-
-
 .contato-banner{
 
     height:360px;
@@ -753,10 +714,6 @@ ol > li > a {
     line-height:40px;
 
 }
-
-/*=========================
-        CONTEÚDO
-=========================*/
 
 .contato-container{
 
