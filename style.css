@@ -35,6 +35,12 @@ ol > li {
     padding: 15px;
 }
 
+ol > li:hover {
+    border: solid 2px red;
+    transition: 0.5s ease-in-out;
+}
+
+
 ol > li > a {
     color: white;
     text-decoration: none;
@@ -44,6 +50,10 @@ ol > li > a {
     display: inline-block;
     width: 85px;
     height: 70px;
+}
+
+#logo_NASA_li:hover {
+    border: none;
 }
 
 /*+----------------------------+*/
@@ -114,7 +124,7 @@ ol > li > a {
     justify-content: center;
     align-items: start;
     width: 100vw;
-    height: 100vh;
+    height: auto;
 }
 
 #section_novidades > h2 {
@@ -135,17 +145,25 @@ ol > li > a {
     font-size: 35px;
 }
 
-#section_novidades > h2 {
-    margin-left: 50px;
+#section_novidades > article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: 10px;
 }
 
-#section_novidades > article {
+#section_novidades > article > h2 {
+    margin: 10px 10px 10px 50px;
+}
+
+#container_secao_de_destaques {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 80%;
-    margin: 10px;
+    height: 100%;
 }
 
 #container_materia_principal {
@@ -154,7 +172,7 @@ ol > li > a {
     justify-content: center;
     align-items: center;
     width: 50%;
-    height: 100%;
+    height: 550px;
 }
 
 #card_materia_principal {
@@ -672,30 +690,6 @@ ol > li > a {
     line-height:26px;
 }
 
-@media(max-width:1100px){
-
-    .espaco-banner{
-        margin-top:0;
-        flex-direction:column;
-        text-align:center;
-    }
-
-    .espaco-imagem-banner img{
-        width:100%;
-    }
-
-    .espaco-conteudo{
-        flex-direction:column;
-    }
-
-    .espaco-card-grande,
-    .espaco-cards-laterais{
-        width:100%;
-    }
-
-}
-
-
 .contato-banner{
 
     height:360px;
@@ -753,10 +747,6 @@ ol > li > a {
     line-height:40px;
 
 }
-
-/*=========================
-        CONTEÚDO
-=========================*/
 
 .contato-container{
 
