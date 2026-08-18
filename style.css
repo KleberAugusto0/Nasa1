@@ -8,7 +8,6 @@ body {
     overflow-x: hidden;
 }
 
-/*CABECALHO*/
 
 header {
     width: 100vw;
@@ -114,9 +113,6 @@ ol > li > a {
     height: 20px;
     margin: 10px;
 }
-/*+---------------------------+*/
-
-/*NOVIDADES*/
 
 #section_novidades {
     display: flex;
@@ -263,10 +259,6 @@ ol > li > a {
     width: 85%;
     margin: 10px;
 }
-
-/*+---------------------------+*/
-
-/*SOBRE A NASA*/
     
 #section_sobre_a_NASA {
     background-color: #536487;
@@ -343,8 +335,6 @@ ol > li > a {
     font-size: 20px;
     margin: 5px;
 }
-/*+---------------------------+*/
-
 
 .clima-banner{
 
@@ -542,7 +532,6 @@ ol > li > a {
 
 }
 
-/* ===== ESPAÇO ===== */
 .espaco-banner{
     margin: top 0;
     min-height:520px;
